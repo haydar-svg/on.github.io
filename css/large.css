@@ -1,3 +1,17 @@
+.green_container {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1000;
+    height: 1500px;
+}
+
+.green {
+    width: 150%;
+    height: 800px;
+    background-color: rgba(0, 128, 0, 0.096);
+    transform: rotate(-45deg);
+}
 .part_0 {
     width: 100%;
     height: 80px;
@@ -19,6 +33,8 @@
     margin-right: 50px;
     cursor: pointer;
     text-align: center;
+    z-index: 2000;
+    position: relative;
 }
 
 .hover_line {
