@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="website,website design,website builder,website designer,web design,making a website,web development,free website creator,website creator">
+    <meta name="description" contet="A personal website for a web developer in which he presents the services he provides and an overview of his career">
+    <meta name="author " content="HAYDAR MOSTAFA ">
+    <link rel="icon " href="images/header_icon.png ">
+    <link rel="stylesheet " href="fonts/Dosis/font.css ">
+    <link rel="stylesheet " href="css/global.css ">
+    <link rel="stylesheet " href="css/large.css ">
+    <link rel="stylesheet " href="css/laptop.css " media="screen and (max-width:990px) ">
+    <link rel="stylesheet " href="css/tablet.css " media="screen and (max-width:640px) ">
+    <link rel="stylesheet " href="css/phone.css " media="screen and (max-width:480px) ">
+    <title>ON</title>
+</head>
+
+<body>
+    <div class="part_0 ">
+        <img src="images/logo.png " alt="logo " class="logo ">
+        <div class="order_now ">
+            order now
+            <div class="hover_line "></div>
+        </div>
+    </div>
+    <div class="part_1 ">
+        <img src="images/interface.png " alt="interface " class="interface_image ">
+        <p class="title ">
+            Enter the world of the web and digitize your services
+        </p>
+    </div>
+    <div class="part_2 "></div>
+    <div class="part_3 ">
+        <p class="our_service ">
+            my services
+        </p>
+        <div class="what_i_do ">
+            Programming and development of websites, re-designing websites and correcting software errors, improving the visibility of the site during the search, and more... </div>
+    </div>
+    <div class="part_4 "></div>
+    <div class="part_5 ">
+        <div class="our_technology ">
+            programming languages
+        </div>
+        <div class="language_container ">
+            <img src="images/html.svg " alt="html " class="lan_icon " id="html ">
+            <img src="images/css.svg " alt="css " class="lan_icon " id="css ">
+            <img src="images/js.svg " alt="js " class="lan_icon " id="js ">
+            <img src="images/php.svg " alt="php " style="width: 50px;cursor: pointer; " id="php ">
+        </div>
+        <div class="description_language ">
+            <p id="desc ">
+
+            </p>
+        </div>
+    </div>
+    <div class="part_6 "></div>
+    <div class="part_7 ">
+        <p class="about_me ">
+            about me
+        </p>
+        <div class="what_i_do ">
+            Hello, my name is Mustafa Haydar and I am a web programmer, in terms of client and server, I have two years of experience working on many projects, be the owner of the next project </div>
+    </div>
+    <div class="part_8 "></div>
+    <div class="part_9 ">
+        <div class="our_technology ">
+            contact with me
+        </div>
+        <div class="language_container " style="justify-content: center; ">
+            <img src="images/email.svg " alt="emil " class="email_icon " onmouseleave=" ">
+            <p class="email ">
+                haydarmustapha6@gmail.com
+            </p>
+        </div>
+    </div>
+    <script>
+        function $(id) {
+            return document.getElementById(id);
+        }
+        $('html').addEventListener('mouseover', () => {
+            $('desc').innerHTML = `HTML, or Hypertext Markup Language`;
+        });
+        $('css').addEventListener('mouseover', () => {
+            $('desc').innerHTML = `Cascading Style Sheets`;
+        });
+        $('js').addEventListener('mouseover', () => {
+            $('desc').innerHTML = `JavaScript is a scripting language`;
+        });
+        $('php').addEventListener('mouseover', () => {
+            $('desc').innerHTML = `Hypertext Preprocessor`;
+        });
+    </script>
+</body>
+
+</html>

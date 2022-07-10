@@ -1,0 +1,77 @@
+.part_0 {
+    height: 50px;
+}
+
+.logo {
+    height: 25px;
+    margin-left: 8px;
+}
+
+.order_now {
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.part_1 {
+    height: 580px;
+}
+
+.interface_image {
+    height: 350px;
+}
+
+.title {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -450px;
+}
+
+.our_service {
+    position: relative;
+    text-align: center;
+}
+
+.what_i_do {
+    line-height: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.our_technology {
+    font-size: 18px;
+}
+
+.language_container {
+    width: 96%;
+    margin-top: 30px;
+}
+
+.lan_icon {
+    width: 30px;
+}
+
+.description_language {
+    width: 96%;
+    margin-left: 2%;
+}
+
+#desc {
+    font-size: 18px;
+}
+
+.about_me {
+    text-align: center;
+    margin-left: auto;
+}
+
+.email {
+    font-size: 18px;
+}
+
+.email_icon {
+    width: 30px;
+}
